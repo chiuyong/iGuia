@@ -5,7 +5,7 @@ Projeto da disciplina de Engenharia de Software (IF977) - Sistemas de Informaç�
 * Chiu Yong Chang: Desenvolvedor
 * Giovanni Veloso da Silva: Líder
 * Haziel Leite Farias: Desenvolvedor
-* Vitor Hugo Rodrigues da Cunha: Desenvolvedor
+* Victor Hugo Rodrigues da Cunha: Desenvolvedor
 
 ## Objetivo:
 Desenvolver uma aplicação SaaS para ajudar turistas a encontrar guias turísticos e descobrir lugares agradaveis baseado no seu interesse.
