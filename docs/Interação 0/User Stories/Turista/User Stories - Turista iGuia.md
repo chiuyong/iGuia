@@ -36,8 +36,7 @@ Feature: Card Guia
 
 Como usuário (turista)
 
-Gostaria de visualizar a categoria do roteiro, duração média, horário de inicio e fim, os pontos a serem visitados e suas respectivas imagens, ponto de encontro, classificação do guia, se possui carro ou não e preço do serviço, se o passeio será em grupo, tipo de transporte, vã, onibus, minivã (caso possua), informações sobre o transporte como ano de fabricação, e modelo.
-
+Gostaria de visualizar a categoria do roteiro, duração média, horário de inicio e fim, os pontos a serem visitados e suas respectivas imagens, ponto de encontro, classificação do guia, se possui carro ou não e preço do serviço, se o passeio será em grupo, tipo de transporte: vã, microonibus, ou carro (caso possua).
 Para me informar e analisar se o roteiro está de acordo com meus interesses
 
   ------------------------
