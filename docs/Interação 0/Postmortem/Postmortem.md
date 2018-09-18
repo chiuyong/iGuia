@@ -19,6 +19,8 @@ Término da iteração
 - Levantamento de Requisitos
 - Estabelecer as metas e cronograma
 - Criação de Low Fidelity Mockup
+- Elaboração de User Stories
+- Validação de User Stories
 -------------------------
 #### O que foi feito
 
@@ -27,11 +29,14 @@ Término da iteração
 - Levantamento de Requisitos
 - Estabelecer as metas e cronograma
 - Criação de Low Fidelity Mockup
+- Elaboração de User Stories
+- Validação de User Stories
 -------------------------
 #### Planejado para próxima iteração
 
-- Elaboração de User Stories
-- Validação de User Stories
+- Triagem de APIs
+- Início da construção do site
+- Testes
 -------------------------
 #### Lições aprendidas
 
@@ -39,7 +44,7 @@ Término da iteração
 - Planejar as atividades e seus prazos
 - Linguagem Markdown
 - Ferramenta Adobe XD
-
+- Como criar User Stories
   
   
   
