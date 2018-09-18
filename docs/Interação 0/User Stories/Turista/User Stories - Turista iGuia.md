@@ -6,7 +6,7 @@ Feature: Seleção de Cidade
 
 Como usuário (turista)
 
-Gostaria de escolher a cidade que deseja visitar dentre as opções existentes
+Gostaria de escolher a cidade que desejo visitar dentre as opções existentes
 
 Para buscar os roteiros disponíveis no momento
 
