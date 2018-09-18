@@ -58,3 +58,13 @@ Como usuário (all)
 Gostaria de escolher o tipo de função, seja turista ou guia
 
 Para atuar na conta da aplicação iGuia
+
+  ------------------------
+  
+Feature: Edição de Perfil
+  
+Como usuário (all)
+
+Gostaria de editar minhas informações básicas de perfil
+
+Para corrigir possíveis erros em meus dados
