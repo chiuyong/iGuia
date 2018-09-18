@@ -12,13 +12,13 @@ Para buscar os roteiros disponíveis no momento
 
   ------------------------
   
-Feature: Lista Roteiros
+Feature: Listagem de Roteiros
 
 Como usuário (turista)
 
-Gostaria de uma interface simples, intuitiva e fácil de utilizar
+Gostaria de encontrar uma lista dos roteiros disponíveis no momento na cidade escolhida
 
-Para comparar os roteiros disponíveis no momento
+Para comparar as opções e escolher uma delas
 
   ------------------------
 
