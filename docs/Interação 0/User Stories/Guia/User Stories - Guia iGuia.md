@@ -6,7 +6,7 @@ Feature: Criação Novo Roteiro
 
 Como usuário (guia)
 
-Gostaria de criar um novo roteiro com os dados de categoria, duração média, ponto 1 (ponto de encontro), ponto 2, ponto 3, se possuo carro, tipo, modelo e ano do veículo, e o preço do meu serviço.
+Gostaria de criar um novo roteiro com os dados de categoria, duração média, ponto 1 (ponto de encontro), ponto 2, ponto 3, se possuo carro e o tipo de carro, e o preço do meu serviço.
 
 Para divulgar meu serviço neste momento
 
