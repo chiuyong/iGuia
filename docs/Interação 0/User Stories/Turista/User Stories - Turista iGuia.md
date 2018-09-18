@@ -48,7 +48,7 @@ Como usuário (turista)
 
 Gostaria de confirmar a escolha do roteiro
 
-Para 
+Para verificar se é esse o roteiro que eu quero e evitar escolher algum roteiro errado
 
   ------------------------
 
@@ -68,7 +68,7 @@ Como usuário (turista)
 
 Gostaria de visualizar o nome do guia, idade do guia, sexo do guia, tempo de chegada do guia ao ponto de encontro e meu tempo de chegada ao ponto de encontro
 
-Para descobrir quem é o guia
+Para descobrir quem é o guia e quando vai começar o passeio
 
   ------------------------
   
@@ -78,7 +78,7 @@ Como usuário (turista)
 
 Gostaria de cancelar o encontro com o guia de cujo roteiro foi solicitado
 
-Para 
+Para escolher outro roteiro
 
   ------------------------  
 
