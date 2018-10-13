@@ -14,8 +14,6 @@ Término da iteração
 -------------------------
 #### O que estava planejado
 
-- Delegação de Atividades
-- Estabelecer as metas e cronograma
 - Escolha do template html do site
 - Início da construção do site
 - Testes
