@@ -14,24 +14,20 @@ Término da iteração
 -------------------------
 #### O que estava planejado
 
-- Escolha do template html do site
-- Início da construção do site
-- Testes
-- Triagem de APIs
+- Escolha do template html do site [Victor]
+- Início da construção do site [Giovanni]
+- Testes [Haziel]
+- Triagem de APIs [Giovanni]
 -------------------------
 #### O que foi feito
 
-- Definição de escopo
-- Delegação de Atividades
-- Levantamento de Requisitos
-- Estabelecer as metas e cronograma
-- Escolha do template html do site
-- Início da construção do site
+- Escolha do template html do site [Victor]
+- Início da construção do site [Giovanni]
 -------------------------
 #### Planejado para próxima iteração
 
-- Testes
-- Triagem de APIs
+- Testes [Haziel]
+- Triagem de APIs [Giovanni]
 -------------------------
 #### Lições aprendidas
 
