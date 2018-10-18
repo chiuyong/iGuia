@@ -32,6 +32,11 @@ Término da iteração
 - Elaboração de User Stories
 - Validação de User Stories
 -------------------------
+#### O que não foi feito
+
+- Tudo foi realizado de acordo com o planejado
+- -------------------------
+
 #### Planejado para próxima iteração
 
 - Triagem de APIs
