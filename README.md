@@ -4,7 +4,6 @@ Projeto da disciplina de Engenharia de Software (IF977) - Sistemas de Informaç�
 ## Equipe:
 * Chiu Yong Chang: Desenvolvedor
 * Giovanni Veloso da Silva: Líder
-* Haziel Leite Farias: Desenvolvedor
 * Victor Hugo Rodrigues da Cunha: Desenvolvedor
 
 ## Objetivo:
