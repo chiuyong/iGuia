@@ -24,15 +24,18 @@ Término da iteração
 - Início da criação de testes [Victor]
 - Criação de front-end das páginas [Chiu]
 - Continuação no desenvolvimento [Giovanni]
+- Redelegação de atividades [Giovanni]
 -------------------------
+
 #### Planejado para próxima iteração
 
 - Continuação no desenvolvimento [Giovanni]
-- Criação de mais testes [Victor]
-- Criação de front-end de demais páginas [Chiu]
+- Criação de testes [Victor]
+- Criação do front-end de demais páginas [Chiu]
 -------------------------
 #### Lições aprendidas
 
 - Importância da Comunicação com a Equipe
 - Planejar as atividades e seus prazos
 - Criação de testes com o cucumber
+- Adaptação após saída de membro da equipe
