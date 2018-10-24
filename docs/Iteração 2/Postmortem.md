@@ -30,7 +30,7 @@ Término da iteração
 
 - Tudo foi realizado de acordo com o planejado
 -------------------------
-#### Planejado para próxima iteração
+### Planejado para próxima iteração
 
 - Continuação no desenvolvimento [Giovanni]
 - Criação de testes [Victor]
