@@ -26,7 +26,10 @@ Término da iteração
 - Continuação no desenvolvimento [Giovanni]
 - Redelegação de atividades [Giovanni]
 -------------------------
+### O que não foi feito
 
+- Tudo foi realizado de acordo com o planejado
+-------------------------
 #### Planejado para próxima iteração
 
 - Continuação no desenvolvimento [Giovanni]
