@@ -36,7 +36,7 @@ Término da iteração
 - Criação de testes [Victor]
 - Criação do front-end de demais páginas [Chiu]
 -------------------------
-#### Lições aprendidas
+### Lições aprendidas
 
 - Importância da Comunicação com a Equipe
 - Planejar as atividades e seus prazos
