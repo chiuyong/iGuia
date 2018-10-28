@@ -11,4 +11,5 @@ Então devo ver a tela de registro
 Cenário: Usuário não existe
 Dado que eu estou na página de registro
 Quando eu preencho o cadastro com "fulano", "de tal", "usuario@gmail.com", "senha123", "01/01/2000" e "M"
-Então deve aparecer a mensagem "usuário cadastrado com sucesso"
+Então o sistema deve permitir o cadastro do usuário 
+E deve aparecer a mensagem "usuário cadastrado com sucesso"
