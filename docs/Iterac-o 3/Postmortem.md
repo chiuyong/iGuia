@@ -18,11 +18,13 @@ Término da iteração
 - Triagem de APIs [Giovanni]
 - Criação de front-end das páginas [Chiu]
 - Continuação no desenvolvimento [Giovanni]
+- Deploy no Heroku [Giovanni]
 -------------------------
 ### O que foi feito
 
 - Continuação da criação de testes [Victor]
 - Continuação da criação de front-end das páginas [Chiu]
+- 
 -------------------------
 ### O que não foi feito
 
@@ -36,5 +38,4 @@ Término da iteração
 -------------------------
 ### Lições aprendidas
 
-- 
-- 
+- Uso do Heroku
