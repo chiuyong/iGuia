@@ -20,11 +20,11 @@ Término da iteração
 - Continuação no desenvolvimento [Giovanni]
 - Criação de testes [Victor]
 - Criação do front-end de demais páginas [Chiu]
-- Deploy no Heroku
 -------------------------
 ### O que não foi feito
 
-- Tudo foi realizado de acordo com o planejado
+- Deploy no Heroku [Giovanni]
+#### Erro: o heroku não identifica a linguagem
 -------------------------
 #### Planejado para próxima iteração
 
