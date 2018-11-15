@@ -24,7 +24,7 @@ Término da iteração
 ### O que não foi feito
 
 - Deploy no Heroku [Giovanni]
-#### Erro: o heroku não identifica a linguagem
+-- Erro: o heroku não identifica a linguagem
 -------------------------
 #### Planejado para próxima iteração
 
