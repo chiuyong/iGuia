@@ -5,7 +5,7 @@ Início da Iteração
 
 Término da iteração
 
-14/11/2018
+26/11/2018
 
 -------------------------
 #### O que estava planejado
@@ -14,17 +14,19 @@ Término da iteração
 - Criação de testes [Victor]
 - Criação do front-end de demais páginas [Chiu]
 - Deploy no Heroku [Giovanni]
+- Correção de erro no Heroku [Giovanni]
 -------------------------
 #### O que foi feito
 
 - Continuação no desenvolvimento [Giovanni]
 - Criação de testes [Victor]
 - Criação do front-end de demais páginas [Chiu]
+- Deploy no Heroku [Victor]
 -------------------------
 ### O que não foi feito
 
-- Deploy no Heroku [Giovanni]
--- Erro: o heroku não identifica a linguagem
+- Correção de erro no Heroku [Giovanni]
+-- appcrash
 -------------------------
 #### Planejado para próxima iteração
 
