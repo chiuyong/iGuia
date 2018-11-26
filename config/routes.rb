@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :scripts
   devise_for :users
   resources :users
   get 'posts/index'

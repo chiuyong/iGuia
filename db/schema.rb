@@ -10,7 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_12_013539) do
+ActiveRecord::Schema.define(version: 2018_11_26_194134) do
+
+  create_table "scripts", force: :cascade do |t|
+    t.string "category"
+    t.float "price"
+    t.time "time"
+    t.string "place1"
+    t.string "place2"
+    t.string "place3"
+    t.boolean "car"
+    t.boolean "active"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "name"

@@ -1,0 +1,57 @@
+<%= form_with(model: script, local: true) do |form| %>
+  <% if script.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(script.errors.count, "error") %> prohibited this script from being saved:</h2>
+
+      <ul>
+      <% script.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :category %>
+    <%= form.text_field :category %>
+  </div>
+
+  <div class="field">
+    <%= form.label :price %>
+    <%= form.text_field :price %>
+  </div>
+
+  <div class="field">
+    <%= form.label :time %>
+    <%= form.time_select :time %>
+  </div>
+
+  <div class="field">
+    <%= form.label :place1 %>
+    <%= form.text_field :place1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :place2 %>
+    <%= form.text_field :place2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :place3 %>
+    <%= form.text_field :place3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :car %>
+    <%= form.check_box :car %>
+  </div>
+
+  <div class="field">
+    <%= form.label :active %>
+    <%= form.check_box :active %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
