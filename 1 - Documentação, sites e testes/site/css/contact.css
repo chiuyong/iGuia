@@ -1,0 +1,74 @@
+#obec-contact {
+    background-color: #5a98bd;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#obec-contact hgroup > h1 {
+    font-weight: 700;
+}
+#obec-contact .row:nth-child(2) {
+    margin-top: 20px;
+}
+#obec-contact .obec-contact-info > div > .obec-circle > i {
+    color: #5a98bd;
+    font-size: 30px;
+    padding-top: 14px;
+    padding-left: 15px;
+}
+#obec-contact .obec-contact-info > div > .obec-circle > .fa-phone {
+    padding-left: 18px;
+}
+#obec-contact .obec-contact-info > div > .obec-circle > .fa-map-marker {
+    padding-left: 20px;
+}
+#obec-contact .obec-contact-info {
+    padding-top: 20px;
+}
+#obec-contact .obec-contact-info div .obec-circle {
+    margin-top: 35px;
+    background: #FFFFFF;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+}
+#obec-contact .obec-contact-info div p{
+    padding-left: 15px;
+}
+#obec-contact .obec-contact-info div > p{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+#obec-contact .obec-btn-pattern {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: grey;
+    font-weight: 700;
+    box-shadow: 3px 3px 3px 0px #262626;
+}
+#obec-contact .obec-btn-pattern:hover, #obec-contact .obec-btn-pattern:focus {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 3px 3px #262626;
+}
+/*.obec-header-underline {
+    width: 5%;
+    border-bottom: 4px solid #c12e2a;
+    display: inline-block;
+    position: relative;
+    bottom: 0;
+    transform: translate(-50%, 5px);
+    left: 50%;
+}*/
+
+/*@media screen and (max-width: 768px) {
+    #obec-contact .obec-header-underline {
+        width: 15%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #obec-contact .obec-header-underline {
+        width: 8%;
+    }
+}*/

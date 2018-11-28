@@ -1,0 +1,32 @@
+#obec-about-page {
+    padding-top: 15px;
+    background-color: #404142;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+#obec-radar-about #obec-about-page {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+#obec-radar-about #obec-about-page h3{
+    font-size: 2em;
+}
+
+
+#obec-about-page h3 {
+    font-weight: 700;
+    /*color: #ff5252;*/
+    color: #FFFFFF;
+}
+
+#obec-about-page button, #obec-about-page button:hover{
+    color: #FFFFFF;
+    opacity: .6;
+}
+#obec-about-page button:hover{
+    color: #FFFFFF;
+    opacity: 1;
+}

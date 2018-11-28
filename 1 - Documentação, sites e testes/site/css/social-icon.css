@@ -1,0 +1,46 @@
+#obec-footer-bottom {
+    background-color: #1e1e1e;
+    color: #919191;
+}
+#obec-footer-bottom .obec-circle-icon {
+    border-radius: 50%;
+    border: solid 2px #FFFFFF;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-top: 3px;
+}
+#obec-footer-bottom a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#obec-footer-bottom .obec-circle-icon:first-child i{
+    padding-left: 5px;
+}
+#obec-footer-bottom a:first-child:hover .obec-circle-icon, #obec-footer-bottom a:first-child:focus .obec-circle-icon {
+    border-color: #3B5998;
+    background-color: #3B5998;
+}
+#obec-footer-bottom a:first-child:hover, #obec-footer-bottom a:first-child:focus {
+    color: #FFFFFF;
+}
+#obec-footer-bottom .obec-circle-icon:nth-child(2) i {
+    padding-left: 3px;
+}
+#obec-footer-bottom a:nth-child(2):hover, #obec-footer-bottom a:nth-child(2):focus {
+    color: #FFFFFF;
+}
+#obec-footer-bottom a:nth-child(2):hover .obec-circle-icon, #obec-footer-bottom a:nth-child(2):focus .obec-circle-icon {
+    border-color: rgb(45, 168, 225);
+    background-color: rgb(45, 168, 225);
+}
+#obec-footer-bottom .obec-circle-icon:last-child i {
+    padding-left: 3.5px;
+}
+#obec-footer-bottom a:last-child:hover, #obec-footer-bottom a:last-child:focus {
+    color:#FFFFFF;
+}
+#obec-footer-bottom a:last-child:hover .obec-circle-icon, #obec-footer-bottom a:last-child:focus .obec-circle-icon {
+    border-color: #8243B5;
+    background-color: #8243B5;
+}

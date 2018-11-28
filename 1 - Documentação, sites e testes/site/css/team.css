@@ -1,0 +1,46 @@
+#obec-team {
+    padding-top: 53px;
+    padding-bottom: 50px;
+    background-color: #FFFFFF;
+}
+#obec-team h1 {
+    color: #262626;
+    font-weight: 700;
+
+}
+#obec-team h3 {
+    color: #262626;
+}
+
+#obec-team .owl-carousel  .item  .card .card-content hr {
+    margin: 20px auto;
+    width: 13%;
+    border-top: 1px solid #D5D5D5;
+}
+#obec-team .owl-carousel .item .card {
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+}
+
+#obec-team .owl-carousel .item .card .obec-back {
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+}
+
+#obec-team .customNavigation a {
+    color: #262626;
+}
+
+#obec-team .card {
+    background-color: #f5f5f5;
+}
+
+#obec-team .card-title, #obec-team .card-description {
+    color: #262626;
+}
+
+@media screen and (max-width: 617px) {
+    #obec-team .owl-carousel  .item  .card .card-content hr {
+        width: 7%;
+    }
+}

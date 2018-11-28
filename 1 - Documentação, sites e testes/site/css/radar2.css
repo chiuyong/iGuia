@@ -1,0 +1,15 @@
+#map {
+    min-height: 70vh;
+}
+#obec-radar .obec-map {
+    padding: 0px;
+}
+
+.obec-radar-content {
+    max-height: 70vh;
+    width: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}

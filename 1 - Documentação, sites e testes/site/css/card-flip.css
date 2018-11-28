@@ -1,0 +1,103 @@
+.obec-flip .card .obec-back {
+    display: none;
+}
+/* Flip Card aplicável somente para desktop */
+@media screen and (min-width: 1200px) {
+    .obec-flip .card .obec-back {
+        display: inline-block;
+    }
+    .obec-flip {
+        position: relative;
+        -webkit-perspective: 800px;
+        -moz-perspective: 800px;
+        -o-perspective: 800px;
+        perspective: 800px;
+        display: table;
+        width: 100%;
+        height: 100%;
+    }
+
+    .obec-flip .card {
+        -webkit-transition: -webkit-transform .75s, -webkit-box-shadow 1s;
+        -moz-transition: -moz-transform .75s, -moz-box-shadow 1s;
+        -o-transition: -o-transform .75s, -o-box-shadow 1s;
+        transition: transform .75s, box-shadow 1s;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -o-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+    }
+
+    .obec-left .card {
+        transform-origin: right center;
+        -webkit-transform-origin: right center;
+        -moz-transform-origin: right center;
+        -o-transform-origin: right center;
+    }
+
+    .obec-flip:hover .card {
+        box-shadow: 0 4px 18px rgba(0, 0, 0, .16);
+        -webkit-box-shadow: 0 4px 18px rgba(0, 0, 0, .16);
+    }
+
+    .obec-left:hover .card {
+        -webkit-transform: translateX(-100%) rotateY(-180deg);
+        -moz-transform: translateX(-100%) rotateY(-180deg);
+        -o-transform: translateX(-100%) rotateY(-180deg);
+        transform: translateX(-100%) rotateY(-180deg);
+    }
+
+    .obec-back {
+        position: absolute;
+        background: transparent; /*#fff */
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        top: 0;
+        padding: 4px 16px;
+        background-color: #FFFFFF;
+        height: 100%;
+        color: #222222;
+    }
+
+    .obec-back, .obec-front {
+        -o-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        width: 100%;
+    }
+
+    .obec-front img {
+        max-width: 100%;
+    }
+
+    .obec-back .obec-text {
+        overflow: auto;
+        height: 80%;
+        padding: 8px;
+        margin-top: 8px;
+    }
+
+    .obec-back .obec-back-btn {
+        border-top: 1px solid #cccccc;
+        margin: auto;
+        margin-top: 16px;
+        width: 80%;
+    }
+
+    .obec-back .obec-back-btn .obec-btn-pattern {
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 0\0
+) {
+    .obec-left:hover .card .obec-back {
+        transform: rotateY(-180deg);
+        backface-visibility: visible
+    }
+}

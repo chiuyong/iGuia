@@ -1,0 +1,19 @@
+.obec-card-wrapper {
+    min-height: 100%;
+    height: 100%;
+}
+.obec-card-wrapper .card .card-description {
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding-top: 8px;
+    overflow-y: auto;
+    height: 70px;
+}
+
+.obec-card-wrapper .obec-blue-btn {
+    background-color: #4db6ac;
+}
+
+.obec-card-wrapper .card {
+    background-color: #FAFAFA;
+}

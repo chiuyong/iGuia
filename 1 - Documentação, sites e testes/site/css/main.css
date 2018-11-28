@@ -1,0 +1,15 @@
+main {
+    padding-top: 91px;
+}
+
+.obec-page, .obec-page section {
+    overflow: hidden;
+    height: 100%;
+    min-height: 100%;
+}
+
+@media screen and (max-width: 1200px){
+    main {
+        padding-top: 90px;
+    }
+}

@@ -1,0 +1,36 @@
+#obec-about-us {
+    padding-top: 53px;
+    padding-bottom: 50px;
+    background-color: #1A1E2A;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#obec-about-us img {
+    display: block;
+    width: 100%;
+    height: 680px;
+    border-radius: inherit;
+    border: none;
+    padding-top: 25px;
+}
+
+#obec-about-us h1 {
+    color: #e0e0e0;
+    font-weight: 700;
+}
+
+#obec-about-us h1 span {
+    color: #ff5252;
+}
+
+#obec-about-us p {
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+@media screen and (min-width: 1200px) {
+    #obec-about-us .row:first-child {
+        padding-bottom: 10px;
+    }
+}

@@ -1,0 +1,118 @@
+#obec-login-register {
+    padding-top: 12px;
+    padding-bottom: 10px;
+    background-color: #82b1ff;
+    min-height: 100%;
+    height: 100%;
+}
+
+#obec-login-register .alert-danger {
+    background: #FFF;
+    border: 1px solid #FF8282;
+    color: #FF8282;
+    font-size: 12px;
+    margin: 0px 8x 10px 8px;
+    display: none;
+    font-weight: 700;
+}
+
+#obec-login-register .panel-default {
+    background-color: #bbdefb;
+}
+
+#obec-login-register .panel-heading {
+    background-color: white;
+}
+
+#obec-login-register .panel-heading h3 {
+    font-weight: 700;
+}
+
+#obec-login-register .panel-heading a + h3 {
+    padding-right: 50px;
+}
+
+#obec-login-register .panel-heading a {
+    padding: 5px 15px;
+    margin-top: 15px;
+}
+
+#obec-login-register .input-group {
+    margin-bottom: 15px;
+}
+#obec-login-register .form-horizontal div:nth-child(2) {
+    margin-top: 20px;
+}
+
+#obec-login-register .input-group:nth-child(3) > label {
+    padding-right: 15px;
+}
+
+#obec-login-register .input-group:nth-child(3) > label > i {
+    padding-left: 2px;
+}
+
+#obec-login-register .input-group:nth-child(4) > label {
+    padding-right: 15px;
+}
+
+#obec-login-register .input-group:nth-child(4) > label > i {
+    padding-left: 2px;
+}
+#obec-login-register > div > div > div > div > div.panel-body > form > div.form-group {
+    margin-bottom: 0;
+}
+
+#obec-login-register p a {
+    text-decoration: none;
+    color: #01579b;
+    font-weight: 500;
+}
+
+#obec-login-register p a:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#obec-login-register .form-group .obec-btn-pattern {
+    width: 80%;
+    color: #f5f5f5;
+    background-color: #4db6ac;
+    border-color: #4db6ac;
+    outline: none;
+    margin: 7px auto;
+}
+
+#obec-login-register .form-group .obec-btn-pattern:hover, #obec-login-register .form-group .obec-btn-pattern:focus {
+    background-color: #5CC09C;
+}
+
+.obec-loading-info {
+    margin-top: 40px;
+    font-family: font-pattern;
+    font-size: 18px;
+}
+
+
+.obec-loader {
+    border: 6px solid #f3f3f3; /* Light grey */
+    border-top: 6px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    animation: spin 2s linear infinite;
+}
+
+#obec-login-register .obec-email-icon {
+    padding-right: 10px!important;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 1200px){
+
+}

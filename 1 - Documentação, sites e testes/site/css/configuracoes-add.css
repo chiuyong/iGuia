@@ -1,0 +1,47 @@
+.obec-page-body {
+    margin-top: 20px;
+}
+
+.obec-config-panel .obec-config-content .obec-field-name {
+    margin-bottom: 10px;
+}
+
+.obec-config-panel .obec-config-content .obec-form-field {
+    margin-bottom: 30px;
+}
+
+.obec-config-panel .obec-config-content .form-group textarea {
+    resize: none;
+}
+
+.obec-config-panel .obec-config-content .obec-page-body .form-horizontal .form-group .obec-blue-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.obec-config-panel .obec-blue-btn {
+    background-color: #4db6ac;
+}
+.ola {
+    background-color: black;
+    height: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .obec-config-panel .form-horizontal div:first-child .form-group .form-control {
+        margin-bottom: 13px;
+    }
+
+    .obec-config-panel > div > div > div > div.obec-page-body > form > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > select {
+        margin-top: 15px;
+    }
+
+    .obec-config-panel .obec-config-content .obec-field-name {
+        margin-bottom: 10px;
+    }
+
+    .obec-config-panel > div > div > div > div.obec-page-body > form > div:nth-child(3) > .obec-upload-box {
+        width: 170px;
+        height: 200px;
+    }
+}

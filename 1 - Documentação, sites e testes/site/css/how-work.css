@@ -1,0 +1,180 @@
+#obec-step .jumbotron {
+    border-radius: 0px !important;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-image: url(https://static.pexels.com/photos/24324/pexels-photo.jpg);*/
+    position: relative;
+    height: 100%;
+    margin-bottom: 0;
+    color: #262626;
+}
+
+#obec-step .jumbotron .btn {
+    border-radius: 0px !important;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    padding: 10px 40px;
+}
+
+#obec-step .obec-circle {
+    margin-top: 25px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+
+#obec-step > div > div > div > div.obec-step-icon > div.obec-circle {
+    background-color: #e22529;
+}
+
+#obec-step > div > div > div > div:nth-child(2) > div.obec-circle {
+    background-color: #fff200;
+}
+
+#obec-step > div > div > div > div:nth-child(3) > div.obec-circle {
+    background-color: #6bb345;
+}
+
+#obec-step .obec-step-icon {
+    display: inline-block;
+
+}
+
+#obec-step .obec-step-info {
+    margin-top: 30px;
+}
+
+#obec-step .obec-step-info p {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+    #obec-step .obec-circle {
+        margin-left: 45px;
+    }
+
+    #obec-step > div > div > div > div.col-lg-offset-1.col-md-offset-1.col-sm-offset-1.obec-step-icon > div.obec-circle {
+        margin-left: 30px;
+    }
+
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-1.col-sm-offset-1.obec-step-icon > div.obec-circle {
+        margin-left: 30px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-1.col-sm-offset-1.obec-step-icon {
+        margin-left: 200px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-2.obec-step-icon {
+        margin-left: 200px;
+    }
+    #obec-step .obec-step-info {
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-2.obec-step-icon > div.obec-circle {
+        margin-left: 45px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-1.col-md-offset-1.col-sm-offset-1.obec-step-icon > div.obec-circle {
+        margin-left: 25px;
+    }
+
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-1.col-sm-offset-1.obec-step-icon > div.obec-circle {
+        margin-left: 35px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-1.col-sm-offset-1.obec-step-icon {
+        margin-left: 100px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-2.obec-step-icon {
+        margin-left: 100px;
+    }
+    #obec-step .obec-step-info {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #obec-step .obec-step-icon {
+        width: 100%;
+        margin-left: 36%;
+    }
+    #obec-step .obec-step-info h3 {
+        padding-left: 60px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-1.col-sm-offset-1.obec-step-icon > div.obec-step-info > h3 {
+        padding-left: 80px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-2.obec-step-icon > div.obec-step-info > h3 {
+        padding-left: 65px;
+    }
+    #obec-step .obec-step-info p {
+        text-align: center;
+        margin-left: -550px;
+    }
+    #obec-step .obec-circle {
+        margin-left: 40px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-1.col-sm-offset-1.obec-step-icon > div.obec-circle {
+        margin-left: 45px;
+    }
+}
+
+@media screen and (max-width: 434px) {
+    #obec-step .obec-step-info h3 {
+        margin-left: -45px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-1.col-sm-offset-1.obec-step-icon > div.obec-step-info > h3 {
+       margin-left: -45px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-2.obec-step-icon > div.obec-step-info > h3 {
+        margin-left: -7px;
+    }
+    #obec-step .obec-step-info p {
+        text-align: center;
+        margin-left: -280px;
+    }
+    #obec-step .obec-circle {
+        margin-left: 0px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-1.col-sm-offset-1.obec-step-icon > div.obec-circle {
+        margin-left: 0;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-2.obec-step-icon > div.obec-step-info > h3 {
+        margin-left: -45px;
+    }
+}
+
+@media screen and (min-width: 745px) and (max-width: 767px) {
+    #obec-step .obec-step-info p {
+        text-align: center;
+        margin-left: -35em;
+    }
+}
+
+@media screen and (min-width: 435px) and (max-width: 744px) {
+    #obec-step .obec-step-info h3 {
+        margin-left: -2em;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-1.col-sm-offset-1.obec-step-icon > div.obec-step-info > h3 {
+        margin-left: -45px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-2.obec-step-icon > div.obec-step-info > h3 {
+        margin-left: -7px;
+    }
+    #obec-step .obec-step-info p {
+        text-align: center;
+        margin-left: -40em;
+    }
+    #obec-step .obec-circle {
+        margin-left: 0px;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-1.col-sm-offset-1.obec-step-icon > div.obec-circle {
+        margin-left: 0;
+    }
+    #obec-step > div > div > div > div.col-lg-offset-2.col-md-offset-2.obec-step-icon > div.obec-step-info > h3 {
+        margin-left: -45px;
+    }
+}

@@ -1,0 +1,89 @@
+#map {
+    height: 100%;
+    /*height: 570px;*/
+    width: 100%;
+    position: fixed;
+    margin-top: 65px;
+
+}
+
+.obec-toggle-btn {
+    padding: 5px;
+}
+
+.obec-toggle-btn button:first-child {
+    border-right: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 700;
+}
+.obec-toggle-btn button:last-child {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: -10px;
+    font-weight: 700;
+}
+
+.obec-radar-btn {
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+#obec-radar-left {
+    overflow: hidden;
+    padding-bottom: 145px;
+    padding-top: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #obec-radar-right {
+        display: none;
+    }
+    #map {
+        position: relative;
+    }
+    .obec-toggle-btn {
+        bottom: 16px;
+        text-align: center;
+        display: inline-block;
+        padding-top: 20px;
+    }
+
+    #obec-radar-left {
+        margin-top: -65px;
+    }
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    #obec-radar-left {
+        width: 100%;
+        margin-top: -65px;
+        margin-bottom: -100px;
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 621px) {
+    #obec-radar-left {
+        padding-bottom: 20px!important;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .obec-toggle-btn {
+        margin-left: -20px;
+    }
+
+    #obec-radar-left {
+        padding-bottom: 30px!important;
+    }
+}
+
+@media screen and (max-width: 492px) {
+    .obec-toggle-btn {
+        margin-left: -45px;
+    }
+}

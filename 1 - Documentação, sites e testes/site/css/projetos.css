@@ -1,0 +1,16 @@
+#obec-projetos {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    #obec-footer-bottom h6 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+    #obec-footer-bottom > div > div > div.col-md-2.col-md-offset-3.col-sm-offset-5 {
+        padding-left: 43%;
+    }
+}

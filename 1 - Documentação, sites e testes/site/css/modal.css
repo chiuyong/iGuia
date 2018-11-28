@@ -1,0 +1,16 @@
+.obec-card-wrapper .modal .modal-header h4, .obec-card-wrapper .modal .modal-footer {
+    text-align: center!important;
+}
+
+.obec-card-wrapper .modal .modal-body h3 {
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.obec-card-wrapper .modal .modal-body p {
+    font-size: 13px;
+    padding-top: 19px;
+}
+
+

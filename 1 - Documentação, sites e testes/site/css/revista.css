@@ -1,0 +1,45 @@
+#obec-revista {
+    background-color: #80deea;
+}
+#obec-revista h3 {
+    font-weight: 700;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+#obec-revista span {
+    color: red;
+    font-weight: 700;
+}
+#obec-revista p:last-child {
+    padding-bottom: 25px;
+}
+
+#obec-revista .row div:last-child {
+    padding-bottom: 40px;
+}
+#obec-revista  a {
+    margin-left: 35px;
+    background-color: transparent;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #222222;
+    font-weight: 700;
+    box-shadow: 3px 3px 3px 0px #262626;
+
+}
+
+#obec-revista > div > div > div.col-sm-offset-5 > a:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 3px 3px #262626;
+}
+
+@media screen and (min-width: 630px) and (max-width: 767px) {
+    #obec-revista > div > div > div.col-sm-offset-4.col-xs-offset-2.col-md-offset-5 {
+        margin-left: 33%;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 629px) {
+    #obec-revista > div > div > div.col-sm-offset-4.col-xs-offset-2.col-md-offset-5 {
+        margin-left: 23%;
+    }
+}

@@ -1,0 +1,37 @@
+.obec-caller {
+    padding-top: 15px;
+    background-color: #651fff;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    height: 300px;
+}
+
+.obec-caller h2 {
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1.4em;
+}
+
+.obec-caller p {
+    font-size: 3em;
+    font-weight: 700;
+
+}
+
+.obec-caller button, .obec-caller button:hover{
+    color: #FFFFFF;
+    opacity: .6;
+}
+.obec-caller button:hover{
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.obec-caller a {
+    color: #FFFFFF;
+}
+
+.obec-caller a:hover {
+    color: #b3e5fc;
+}

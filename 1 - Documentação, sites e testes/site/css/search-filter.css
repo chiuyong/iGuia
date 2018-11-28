@@ -1,0 +1,11 @@
+.obec-search-filter {
+    background-color: #5a98bd;
+    padding-top: 15px;
+    box-shadow: 2px 2px 2px 2px #cccccc;
+    z-index: 1;
+}
+
+.obec-filter-fixed {
+    position: fixed;
+}
+

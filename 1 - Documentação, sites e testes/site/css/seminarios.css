@@ -1,0 +1,29 @@
+#obec-seminarios {
+    height: 100%;
+    background-color: #efebe9;
+    padding-bottom: 30px;
+}
+
+#obec-seminarios h3 {
+    padding-top: 3px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+#obec-seminarios img {
+    display: block;
+    margin-top: 30px;
+}
+
+#obec-seminarios .obec-bold {
+    font-weight: bold;
+}
+
+#obec-seminarios .obec-underlined {
+    text-decoration: underline;
+}
+
+#obec-seminarios .obec-italic {
+    font-style: italic;
+}
+

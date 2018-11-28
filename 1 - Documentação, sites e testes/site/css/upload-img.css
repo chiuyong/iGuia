@@ -1,0 +1,55 @@
+/*-------------*/
+.obec-upload-box{
+    width: 190px;
+    height: 200px;
+    border: 2px dashed #dcdee3;
+    margin: 3px;
+    position: relative;
+    display: inline-block;
+}
+.obec-upload-img {
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    top:-2px;
+    left: -2px;
+    position: absolute;
+    z-index: 2;
+}
+.obec-upload-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    text-indent: -10000;
+    opacity: 0;
+    z-index: 3;
+}
+.obec-upload-close {
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    padding: 3px 5px;
+    color: white;
+    transition: all .2s;
+    opacity: 0;
+    transform: scale(0);
+    cursor: pointer;
+    z-index: 4;
+}
+.obec-upload-box:hover .obec-upload-close{
+    opacity: 1;
+    transform: scale(1);
+}
+.obec-upload-box:before{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    opacity: 0.3;
+    color: #000;
+    font-weight: bold;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}

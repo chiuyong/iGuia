@@ -1,0 +1,57 @@
+/* Rodape para as páginas, exceto Home */
+footer #obec-partner {
+    /*background-color: #ede7f6;*/
+    background-color: #e2e2e2;
+}
+
+footer #obec-partner .owl-carousel .item {
+    width: 45%;
+    margin: 0 auto;
+}
+
+footer #obec-partner .owl-carousel .owl-item:nth-child(3) img, footer #obec-partner .owl-carousel .owl-item:nth-child(4) img,
+footer #obec-partner .owl-carousel .owl-item:nth-child(5) img, footer #obec-partner .owl-carousel .owl-item:nth-child(6) img{
+    padding-top: 15px;
+}
+
+footer #obec-partner .owl-carousel .owl-item:nth-child(7) img{
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    footer #obec-partner .owl-carousel .item {
+        max-width: 30%;
+    }
+    #obec-footer-bottom {
+        text-align: center;
+    }
+
+    #obec-footer-bottom .obec-circle-icon:last-child i {
+        padding-left: 1.5px!important;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    footer #obec-partner {
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #obec-footer-bottom h6 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+    #obec-footer-bottom > div > div > div.col-md-2.col-md-offset-3.col-sm-offset-5 {
+        padding-left: 43%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .obec-footer-small .owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+        padding: 7px;
+    }
+}

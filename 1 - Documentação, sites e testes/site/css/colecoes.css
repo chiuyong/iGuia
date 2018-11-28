@@ -1,0 +1,115 @@
+#obec-colecoes {
+    background-color: #212121;
+    height: 490px;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+#obec-colecoes h1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-weight: 700;
+}
+
+#obec-colecoes a {
+    text-decoration: none;
+}
+
+.obec-circle-img {
+    margin-top: 50px;
+
+    /* display items as block elements, inline positioning */
+    display: inline-block;
+    /* set the height of the image */
+    height: 110px;
+    /* hide the link text */
+    text-indent: -9999px;
+    /* set the width of the image */
+    width: 110px;
+
+    /* use a radius to make the image into a circular shape */
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+
+    /* Add shadow to the box */
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    background: no-repeat;
+    margin-right: 50px;
+}
+
+/* simple hover effect */
+img.obec-circle-img {
+    opacity: .6;
+    /* add fade transition effect to opacity change */
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out; /* Safari */
+}
+
+img.obec-circle-img:hover, img.obec-circle-img:focus { opacity: 1; }
+
+#obec-colecoes img {
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1200px) {
+    #obec-colecoes .row div:last-child {
+        margin-left: 460px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #obec-colecoes .row div:last-child {
+        margin-left: 360px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #obec-colecoes .row div:last-child .obec-circle-img {
+        margin-left: 13%;
+        margin-right: 20%;
+
+    }
+
+    #obec-colecoes h1 {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        font-weight: 700;
+    }
+
+    #obec-colecoes > div > div > div.col-sm-offset-4.col-xs-offset-4 > a:nth-child(1) > img {
+        margin-top: 30px;
+    }
+    #obec-colecoes > div > div > div.col-sm-offset-4.col-xs-offset-4 > a:nth-child(2) > img {
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 632px) {
+    #obec-colecoes .row div:last-child {
+        margin-left: 33%;
+    }
+    #obec-colecoes > div > div > div.col-sm-offset-4.col-xs-offset-4 > a:nth-child(1) > img {
+        margin-top: 20px;
+    }
+    #obec-colecoes > div > div > div.col-sm-offset-4.col-xs-offset-4 > a:nth-child(2) > img {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #obec-colecoes .row div:last-child {
+        margin-left: 26%;
+    }
+    #obec-colecoes > div > div > div.col-sm-offset-4.col-xs-offset-4 > a:nth-child(1) > img {
+        margin-top: 20px;
+    }
+    #obec-colecoes > div > div > div.col-sm-offset-4.col-xs-offset-4 > a:nth-child(2) > img {
+        margin-top: 30px;
+    }
+}
+
+

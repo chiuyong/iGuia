@@ -1,0 +1,80 @@
+/* So para pagina Home */
+#obec-partner {
+    background-color: #e2e2e2;
+}
+
+#obec-partner .owl-carousel .item {
+    width: 60%;
+}
+
+#obec-partner .owl-carousel .owl-item:nth-child(3) img, #obec-partner .owl-carousel .owl-item:nth-child(4) img,
+#obec-partner .owl-carousel .owl-item:nth-child(5) img, #obec-partner .owl-carousel .owl-item:nth-child(6) img{
+    padding-top: 15px;
+}
+#obec-partner .owl-carousel .owl-item:nth-child(7) img{
+    padding-top: 7px;
+}
+
+@media screen and (max-width: 768px) {
+    #obec-partner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #obec-partner .owl-carousel .item {
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #obec-footer-bottom {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 492px) and (max-width: 617px) {
+    #obec-partner .owl-carousel .owl-item:nth-child(3) img, #obec-partner .owl-carousel .owl-item:nth-child(4) img,
+    #obec-partner .owl-carousel .owl-item:nth-child(5) img, #obec-partner .owl-carousel .owl-item:nth-child(6) img{
+        padding-top: 20px;
+    }
+    #obec-partner .owl-carousel .owl-item:nth-child(7) img{
+        padding-top: 7px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    #obec-partner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #obec-partner .owl-carousel .item {
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%;
+    }
+    #obec-footer-bottom {
+        text-align: center;
+    }
+    #obec-partner .owl-carousel .owl-item:nth-child(3) img, #obec-partner .owl-carousel .owl-item:nth-child(4) img,
+    #obec-partner .owl-carousel .owl-item:nth-child(5) img, #obec-partner .owl-carousel .owl-item:nth-child(6) img{
+        padding-top: 20px;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #obec-partner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #obec-partner .owl-carousel .item {
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%;
+    }
+    #obec-footer-bottom {
+        text-align: center;
+    }
+    #obec-partner .owl-carousel .owl-item:nth-child(3) img, #obec-partner .owl-carousel .owl-item:nth-child(4) img,
+    #obec-partner .owl-carousel .owl-item:nth-child(5) img, #obec-partner .owl-carousel .owl-item:nth-child(6) img{
+        padding-top: 20px;
+    }
+}
